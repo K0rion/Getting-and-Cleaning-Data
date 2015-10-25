@@ -53,8 +53,8 @@ The script:
 
 #### Dataset Variables:
 *	Subject
-* Activities - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-* Features/measures 
+* Activities - walking, walking upstairs, walking downstairs, sitting, standing, laying
+* Features - measures, means, standard deviation
 
 -----
 ### Cleaned Datasets: 

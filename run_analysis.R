@@ -44,7 +44,7 @@ names(mean_stddata) <- gsub("\\(|\\)", "", (feat[mean_std, 2]))
 
 ## 3. Using descriptive activity names to name the activities in the data set:
 activities <- read.table("activity_labels.txt")
-activities[, 2] = gsub("_", "", tolower(as.character(activities[, 2])))
+activities[, 2] = gsub("_", " ", tolower(as.character(activities[, 2])))
 ydata[,1] = activities[ydata[ , 1], 2]
 names(ydata) <- "activity"
 
